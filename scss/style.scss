@@ -91,3 +91,13 @@ main {
             padding: 10px;
     }
 }
+
+/* media queries */
+
+@media (max-width: 850px) {
+    main {
+        .productos {
+            flex-wrap: wrap;
+        }
+    }
+}
