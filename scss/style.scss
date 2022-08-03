@@ -34,10 +34,14 @@ main {
             color: $color-secundary;
         }
     }
+    .text-h1 {
+        padding-top: 10px;
+            text-align: center;
+    }
 }
 
 footer {
-    background-color: $color-primary;
+    @extend .navbar;
     text-align: center;
     p {
         margin-bottom: 0 !important;

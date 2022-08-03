@@ -3,9 +3,9 @@
   margin: 0px;
   padding: 0px; }
 
-.navbar {
+.navbar, footer {
   background-color: #343A40 !important; }
-  .navbar a {
+  .navbar a, footer a {
     color: #E9ECEF !important; }
 
 main {
@@ -23,9 +23,11 @@ main {
     main .card-body .btn {
       background-color: #343A40;
       color: #E9ECEF; }
+  main .text-h1 {
+    padding-top: 10px;
+    text-align: center; }
 
 footer {
-  background-color: #343A40;
   text-align: center; }
   footer p {
     margin-bottom: 0 !important;
