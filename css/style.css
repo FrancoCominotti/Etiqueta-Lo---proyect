@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px; }
@@ -16,7 +15,7 @@ main {
     height: 887px; }
   main .cards-varias {
     margin-top: 20px;
-    justify-content: space-evenly !important;
+    justify-content: space-evenly;
     text-align: center; }
   main .card-body {
     background-color: #E9ECEF; }
@@ -26,11 +25,37 @@ main {
   main .text-h1 {
     padding-top: 10px;
     text-align: center; }
+  main .tittle {
+    padding-top: 75px;
+    text-align: center; }
+  main .productos {
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px; }
+  main .sobre-mi {
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 18.85%; }
+    main .sobre-mi .foto-mia {
+      width: 300px;
+      height: 400px; }
+    main .sobre-mi .main-text {
+      margin: 30px; }
+  main .main-in3 {
+    padding-bottom: 23.75%; }
+  main .main-ubi {
+    justify-content: center; }
+  main .main-ubi-2 {
+    padding-bottom: 15.93%; }
+  main iframe {
+    width: 400px;
+    height: 300px; }
 
 footer {
   text-align: center; }
   footer p {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
     color: #E9ECEF; }
 
 /* media queries */
@@ -47,19 +72,12 @@ footer {
     margin-bottom: 20px; }
   main .card {
     margin-top: 30px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  main .mensaje {
+    padding-bottom: 110px; } }
 
-/* Sección Productos */
-main .tittle {
-  padding-top: 75px;
-  text-align: center; }
-
-main .productos {
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 10px; }
-
-/* media queries */
 @media (max-width: 850px) {
   main .productos {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  main .sobre-mi {
+    flex-direction: column; } }
