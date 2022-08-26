@@ -129,7 +129,6 @@ body .index {
   height: 100vh; }
   body .index a {
     background-color: #343A40;
-    color: #E9ECEF;
-    margin-left: 900px;
-    margin-right: 900px;
+    color: #E9ECEF; }
+  body .index .home {
     justify-content: center; }
