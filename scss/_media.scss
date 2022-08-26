@@ -1,0 +1,85 @@
+@media (max-width: 1580px) {
+    main {
+        div {
+            .carousel-inner {
+                height: 500px;
+            }
+        }
+        .cards-varias {
+            flex-wrap: wrap;
+        }
+        section {
+            .hot-sale {
+                height: 200px;
+                width: 200px;
+            }
+        }
+        .main-ubi {
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            .ubi-fotos-local {
+                height: 300px;
+                width: 500px;
+            }
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    main {
+        div {
+            .carousel-inner {
+                height: 200px;
+            }
+            .carousel-indicators {
+                margin-bottom: 20px;
+            }
+        }
+        .card {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .mensaje {
+            padding-bottom: 110px;
+        }
+        section {
+            .hot-sale {
+                height: 200px;
+                width: 200px;
+            }
+        }
+        .main-ubi {
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            .ubi-fotos-local {
+                height: 200px;
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    main {
+        .productos {
+            flex-wrap: wrap;
+        }
+        .sobre-mi {
+            flex-direction: column;
+        }
+        section {
+            .hot-sale {
+                height: 200px;
+                width: 200px;
+            }
+        }
+        .main-ubi {
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+            .ubi-fotos-local {
+                height: 200px;
+                width: 300px;
+            }
+        }
+    }
+}

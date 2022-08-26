@@ -1,0 +1,83 @@
+main {
+    background: $color-background;
+    div {
+        .carousel-inner {
+            margin-top: 50px;
+            height: 800px;
+        }
+        
+    }
+    .cards-varias {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-evenly;
+        text-align: center;
+        .card-img-top {
+            height: 250px;
+        }
+    }
+    .card-body {
+        background-color: $color-secundary;
+        .btn {
+            background-color: $color-primary;
+            color: $color-secundary;
+        }
+    }
+    .text-h1 {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .tittle {
+        padding-top: 75px;
+        text-align: center;
+    }
+    .productos {
+            justify-content: space-evenly;
+            text-align: center;
+            padding: 10px;
+            .card-img-top {
+                height: 350px;
+            }
+    }
+    .sobre-mi {
+        justify-content: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        .foto-mia {
+            width: 300px;
+            height: 400px;
+        }
+        .main-text {
+            margin: 30px;
+        }
+    }
+    .main-in3 {
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .main-ubi {
+        justify-content: space-around;
+        .ubi-fotos-local {
+            height: 400px;
+            width: 600px;
+            padding-top: 20px;
+        }
+    }
+    .main-ubi-2 {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .texto-inicial {
+        text-align: center;
+        padding-top: 25%;
+        color: $color-background;
+    }
+    section {
+        .hot-sale {
+            justify-content: center;
+        }
+    }
+}
